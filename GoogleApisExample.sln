@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GoogleApisExample", "GoogleApisExample.fsproj", "{54C7E4DC-D874-4000-9FFF-FDDF64727117}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GoogleApisExample", "examples\GoogleApisExample\GoogleApisExample.fsproj", "{54C7E4DC-D874-4000-9FFF-FDDF64727117}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SlidesExample", "examples\SlidesExample\SlidesExample.fsproj", "{4282EE2C-80C3-468A-B1C8-5DC6D64C471E}"
 EndProject
