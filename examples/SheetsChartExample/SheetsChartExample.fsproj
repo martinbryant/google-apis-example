@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Helpers.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="Sheets chart example.ods" />
+    <Content Include="Slides chart example.odp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.60.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.60.0.3085" />
+    <PackageReference Include="Google.Apis.Slides.v1" Version="1.60.0.2979" />
+  </ItemGroup>
+
+</Project>

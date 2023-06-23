@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GoogleApisExample", "examples\GoogleApisExample\GoogleApisExample.fsproj", "{54C7E4DC-D874-4000-9FFF-FDDF64727117}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SlidesExample", "examples\SlidesExample\SlidesExample.fsproj", "{4282EE2C-80C3-468A-B1C8-5DC6D64C471E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{25E1A72A-5242-4D91-8662-F181AC019ED6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SheetsChartExample", "examples\SheetsChartExample\SheetsChartExample.fsproj", "{EC4C701A-4313-4998-9743-5C414EF8A87A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,12 @@ Global
 		{4282EE2C-80C3-468A-B1C8-5DC6D64C471E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4282EE2C-80C3-468A-B1C8-5DC6D64C471E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4282EE2C-80C3-468A-B1C8-5DC6D64C471E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4C701A-4313-4998-9743-5C414EF8A87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4C701A-4313-4998-9743-5C414EF8A87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4C701A-4313-4998-9743-5C414EF8A87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4C701A-4313-4998-9743-5C414EF8A87A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC4C701A-4313-4998-9743-5C414EF8A87A} = {25E1A72A-5242-4D91-8662-F181AC019ED6}
 	EndGlobalSection
 EndGlobal
